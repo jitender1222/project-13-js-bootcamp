@@ -4,117 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SAAS page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div>
-            <img src="images/Logo.png" alt="">
-        </div>
+    <!-- navbar  -->
 
-        <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Priceing</li>
-            <li>Testimonials</li>
-            <li>Blog</li>
-            <button>Free Trail</button>
+    <nav>
+        <div class="logo">
+            <img src="./images/Logo.png" alt="">
+        </div>
+        <ul class="nav-list">
+            <li><a class="nav-link active-link" href="">Home</a></li>
+            <li><a class="nav-link" href="">services</a></li>
+            <li><a class="nav-link" href="">Pricing</a></li>
+            <li><a class="nav-link" href="">Testimonials</a></li>
+            <li><a class="nav-link" href="">Blog</a></li>
+            <li><button class="btn nav-btn">FREE TRIAL</button></li>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </ul>
+
     </nav>
 
 
-    <main>
-        <section aria-label="content">
-            <h1>Codext one of the best system in SAAS</h1>
-            <article>
-                Lorem ipsum vdolor sit amet, consectetur adisiping elit. A nulla nulla etlam turpis quam. A nulla nulla etlam turpis quam diam et arcu nisi, sed aenean sit nisl.
-            </article>
-        </section>
+        <!-- hero section  -->
 
-        <section class="img">
-            <img src="images/30495 [Converted]-01(1).svg" alt="">
-        </section>
-    </main>
-
-    <section>
-        <aside aria-label="content">
-            <h2>It's helpful for operating system</h2>
-            <ul>
-                <li>Ultra fast & Secure</li>
-                    <article>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor 
-                    </article>
-                <li>Allows customization</li>
-                    <article>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor 
-                    </article>
-                <li>Smart contract</li>
-                    <article>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor 
-                    </article>
-            </ul>
-        </aside>
-
-        <aside>
-            <img src="images/Saas illustration-01.svg" alt="">
-        </aside>
-    </section>
-
-    <section class="card-section">
-        <h2>We Provide Best Feature for Customer</h2>
-        <div class="cards">
-            <div class="card" >
-                <div class="img" style="background-color: rgb(199, 139, 139);">
-                    <img src="images/web-developing.svg" width="40px" alt="">
-                </div>
-                <div>
-                    <h3>Clean Code</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
+        <div class="flex hero ">
+            <div class="hero-left" >
+                <h1>Codex one of<br>the best system<br>in SAAS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis praesentium dolorum iste quibusdam inventore minus vel voluptate non similique quia?</p>
             </div>
-
-
-            <div class="card">
-                <div class="img" style="background-color: rgb(242, 138, 63);">
-                    <img src="images/data-analytics.svg" width="40px" alt="">
-                </div>
-                <div>
-                    <h3>Clean Code</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="card">
-                <div class="img" style="background-color: rgb(111, 150, 149);">
-                    <img src="images/secured-profile.svg" style="background-color: rgb(111, 150, 149);" width="40px" alt="">
-                </div>
-                <div>
-                    <h3>Clean Code</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="card">
-                <div class="img" style="background-color: rgb(187, 66, 194);">
-                    <img src="images/support.svg" width="40px" alt="">
-                </div>
-                <div>
-                    <h3>Clean Code</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
+            <div class="hero-right">
+                <img src="./images/30495 [Converted]-01(1).svg" alt="">
             </div>
         </div>
-    </section>
+
+        <!-- section 1 -->
+
+        <div class="flex section-1">
+            <div class="sec-1-left">
+                <img src="images/Saas illustration-01.svg" alt="">
+            </div>
+            <div class="sec-1-right">
+                <h1>It's helpful for operating system</h1>
+                <div class="features">
+                    <div class="feature">
+                        <img class="red" src="assets/arrow.svg" alt="">
+                       <div>
+                        <h4>Ultra fast & Secure</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente recusandae maxime illum.
+                        </p>
+                       </div>
+                    </div>
+                    <div class="feature">
+                        <img class="green" src="assets/arrow.svg" alt="">
+                        <div>
+                            <h4>Allow customization</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente recusandae maxime illum.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <img class="blue" src="assets/arrow.svg" alt="">
+                        <div>
+                            <h4>Smart Contact</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente recusandae maxime illum.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- section-2  -->
+
+        <dic class="section-2">
+            <h1>We Provide Best Feature<br>for Customer</h1>
+            <div class="flex cards">
+                <div class="card">
+                    <div class="card-img i1-bg">
+                        <img src="./images/web-developing.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h4>Clean Code</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img i2-bg">
+                        <img src="./images/data-analytics.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h4>Data Analytics</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img i3-bg">
+                        <img src="images/secured-profile.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h4>Fullly Secured</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img i4-bg">
+                        <img src="./images/support.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h4>24/7 Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+        </dic>
+        
 </body>
 </html>
